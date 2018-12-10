@@ -7,3 +7,6 @@
        请参考PPT:ZYNQ 自定义硬件启动，该PPT简要介绍了移植过程，可以作为教程使用。
     2.基于petalinux 以太网驱动移植
        请参考PPT：Petalinux 以太网驱动芯片移植
+    3.基于自定义ZYNQ 板子DMA驱动移植
+       请参考PPT：基于自定义PYNQ板子的DMA移植
+      
