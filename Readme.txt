@@ -10,3 +10,6 @@
     3.基于自定义ZYNQ 板子DMA驱动移植
        请参考PPT：基于自定义PYNQ板子的DMA移植
       
+第二部分：基于PYNQ的HLS CNN 卷积神经网络硬件架构
+     详见基于PYNQ的HLS 版本CNN 卷积神经网络硬件架构.pdf
+     
