@@ -13,3 +13,5 @@
 第二部分：基于PYNQ的HLS CNN 卷积神经网络硬件架构
      详见基于PYNQ的HLS 版本CNN 卷积神经网络硬件架构.pdf
      
+剩下步骤可以参考：
+https://github.com/mfarhadi/CNNIOT From MIT
