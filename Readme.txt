@@ -15,3 +15,10 @@
      
 剩下步骤可以参考：
 https://github.com/mfarhadi/CNNIOT From MIT
+
+常见问题总结：
+1、linux 内核启动了，但进入不了pynq系统怎么办？(from zedboard)
+注意：官方默认给的BSP包里面配置的启动模式为FLASH或QSPI启动模式，您需要重新配置uboot的启动模式，在peatlinux中进入启动配置选项菜单后，选择从
+SD卡启动即可，然后重新编译并生成启动文件，按照教程后面的步骤进行即可。
+
+
