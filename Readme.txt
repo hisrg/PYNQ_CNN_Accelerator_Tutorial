@@ -23,6 +23,10 @@ SD卡启动即可，然后重新编译并生成启动文件，按照教程后面
 2、如何将linux image 烧写到SD卡中，
 可以参考https://pynq.readthedocs.io/en/latest/getting_started/pynq_image.html中描述的步骤将PYNQ image烧入到SD卡中。
 3、新增视频版本教程
-https://pan.baidu.com/s/1mS6EHFro1ICjqM2xCdIZkw 免密码。
+https://pan.baidu.com/s/1mS6EHFro1ICjqM2xCdIZkw 永久有效。
+
+其它网络资源：
+1、移植到ZCU102板卡上教程：https://blog.csdn.net/vacajk/article/details/84728062
+
 
 
