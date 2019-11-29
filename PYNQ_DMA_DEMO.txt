@@ -1,0 +1,18 @@
+如何将主机连接搭载PYNQ的FPGA板子：
+1、使用网线将PYNQ板子与主机HOST的网口相连，将ZCU102板子的UART口与主机HOST相连，一般使用板子自带的数据线，注意PYNQ与JTAG有冲突，建议不连接JTAG
+2、设置主机HOST的IP地址为192.168.1.1,掩码为255.255.255.0，网关IP为192.168.1.143
+3、配置好串口参数，启动板子，观察串口启动过程，如果没有问题则会出现标准的Ubuntu Shell 界面
+4、输入sudo su 进入root模式，一般密码为xilinx
+5、使用ifconfig eth0 192.168.1.143 up 命令开启板子命令
+6、在浏览器中输入192.168.1.143 ，如正常则会让你再次在浏览器中输入xilinx登录命令
+7、剩下步骤请查看视频：
+8、在vivado中创建工程DMA_T1，并生成bit文件
+9、导出bit和tcl至jupyter
+10、导出hwh文件至jupyter
+11、在jupyter中创建py脚本
+12、运行测试
+
+
+
+特别注意：由于此版本用的vivado2019.2，因此比之前的版本导出文件时多了一个hwh文件，pynq 缺少allocate lib库，因此需要用的老版本dma相关库，xlnk和dma.lib
+
